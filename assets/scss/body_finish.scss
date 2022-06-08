@@ -1,0 +1,58 @@
+// Pixels
+$px_10:10px;
+$px_20:20px;
+$px_25:25px;
+$px_25:25px;
+$px_42:42px;
+$px_45:45px;
+$px_50:50px;
+$px_56:56px;
+$px_60:60px;
+$px_110:110px;
+$px_220:220px;
+$px_700:700px;
+$px_1200:1200px;
+
+
+// Colors
+$body_finish_h2: #39404a;
+$body_finish_p:#555555;
+$body_finish_p_a:#119744;
+
+.body_finish {
+  width: $px_1200;
+  margin-top: $px_110;
+  margin-bottom: $px_20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.body_finish_logo {
+  width: $px_220;
+  height: $px_56;
+  margin-bottom: $px_25;
+  cursor: pointer;
+}
+
+.body_finish h2 {
+  width: $px_700;
+  text-transform: uppercase;
+  font-size: $px_42;
+  line-height: $px_50;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: $px_45;
+  color: $body_finish_h2;
+}
+
+.body_finish p {
+  margin-bottom: $px_10;
+  margin-top: $px_60;
+  color: $body_finish_p;
+}
+
+.body_finish p a {
+  color: $body_finish_p_a;
+}
